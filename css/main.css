@@ -3,3 +3,145 @@
 	padding: 0;
 	margin: 0;
 }
+
+.wrapper {
+	display: flex;
+	width: 100%;
+}
+
+#sidebar {
+	position: fixed;
+	min-width: 250px;
+	max-width: 250px;
+	left: 0;
+	height: 100vh;
+	background: #7386d5;
+	color: #fff;
+	transition: all 0.3s;
+	overflow: auto;
+}
+
+.card {
+	background: #6d7fcc;
+}
+
+.card-body {
+	padding: 0;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.col {
+	text-align: center;
+	align-self: center;
+}
+
+.col-user-image {
+	align-self: center;
+	padding: 0;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.user-description {
+	align-self: center;
+	margin: 5px;
+}
+
+a[data-toggle="collapse"] {
+	position: relative;
+}
+
+.dropdown-toggle::after {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: #fafafa;
+}
+
+a,
+a:hover,
+a:focus {
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+	padding: 20px;
+	background: #6d7fcc;
+}
+
+#sidebar ul.components {
+	border-bottom: 1px solid #47748b;
+	border-top: 1px solid #47748b;
+}
+
+#sidebar ul p {
+	color: #fff;
+	padding: 10px;
+}
+
+#sidebar ul li a {
+	padding: 10px;
+	font-size: 1.1em;
+	display: block;
+}
+#sidebar ul li a:hover {
+	color: #7386d5;
+	background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+	color: #fff;
+	background: #6d7fcc;
+}
+ul ul a {
+	font-size: 0.9em !important;
+	padding-left: 30px !important;
+	background: #6d7fcc;
+}
+
+#content {
+	margin-left: 250px;
+	height: 100vh;
+	padding: 1px, 16px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+	.sidebar {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.sidebar a {
+		float: left;
+	}
+	div.content {
+		margin-left: 0;
+	}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+	.sidebar a {
+		text-align: center;
+		float: none;
+	}
+}
