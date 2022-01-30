@@ -4,8 +4,9 @@
 	margin: 0;
 }
 
-.wrapper {
+/* .wrapper {
 	display: flex;
+	flex-wrap: nowrap;
 	width: 100%;
 }
 
@@ -37,9 +38,9 @@
 .col {
 	text-align: center;
 	align-self: center;
-}
+} */
 
-.col-user-image {
+/* .col-user-image {
 	align-self: center;
 	padding: 0;
 }
@@ -52,18 +53,6 @@
 .user-description {
 	align-self: center;
 	margin: 5px;
-}
-
-a[data-toggle="collapse"] {
-	position: relative;
-}
-
-.dropdown-toggle::after {
-	display: block;
-	position: absolute;
-	top: 50%;
-	right: 20px;
-	transform: translateY(-50%);
 }
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
@@ -104,9 +93,9 @@ a:focus {
 #sidebar ul li a:hover {
 	color: #7386d5;
 	background: #fff;
-}
+} */
 
-#sidebar ul li.active > a,
+/* #sidebar ul li.active > a,
 a[aria-expanded="true"] {
 	color: #fff;
 	background: #6d7fcc;
@@ -115,33 +104,10 @@ ul ul a {
 	font-size: 0.9em !important;
 	padding-left: 30px !important;
 	background: #6d7fcc;
-}
+} */
 
-#content {
+/* #content {
 	margin-left: 250px;
 	height: 100vh;
 	padding: 1px, 16px;
-}
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-	.sidebar {
-		width: 100%;
-		height: auto;
-		position: relative;
-	}
-	.sidebar a {
-		float: left;
-	}
-	div.content {
-		margin-left: 0;
-	}
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-	.sidebar a {
-		text-align: center;
-		float: none;
-	}
-}
+} */
