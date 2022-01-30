@@ -17,13 +17,61 @@
 	color: rgb(233, 229, 168);
 }
 
-.active,
-.active a {
+.active {
 	background-color: #0d8128;
 	color: rgb(233, 229, 168) !important;
 }
 .active a:hover {
 	color: rgb(224, 150, 214);
+}
+
+.dropdown-item:focus {
+	background-color: chartreuse;
+}
+
+.card {
+	margin: 0.25rem;
+}
+.activities-block {
+	background-color: darkgray;
+	margin: 0.25rem;
+}
+
+.row {
+	justify-content: center;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+.col-user-image {
+	align-self: center;
+	padding: 0;
+}
+.profile-info {
+	background-color: darkgray;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.user-description {
+	align-self: center;
+	margin: 5px;
+}
+
+.fixed-bottom {
+	height: 40px;
+}
+
+.github-link {
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+	height: 40px;
 }
 /* .wrapper {
 	display: flex;
