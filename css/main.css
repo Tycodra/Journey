@@ -32,28 +32,64 @@
 .card {
 	margin: 0.25rem;
 }
+
+#activity-header {
+	margin: 5px;
+}
 .activities-block {
 	background-color: darkgray;
+	height: 15rem;
+	overflow-y: scroll;
+}
+
+.activities-border {
+	background-color: lightcoral;
+}
+
+.activity-card {
+	width: 17rem;
+}
+
+.bucket-list-block {
+	background-color: darkgray;
 	margin: 0.25rem;
+	height: 15rem;
+	border: rgb(128, 214, 240) solid 10px;
+	overflow-y: scroll;
+}
+
+.bucket-list-border {
+	background-color: lightcoral;
+}
+
+.bucket-list-card {
+	width: 17rem;
 }
 
 .row {
-	justify-content: center;
+	justify-content: space-evenly;
 	text-align: center;
 	margin-left: 0;
 	margin-right: 0;
 }
 .col-user-image {
 	align-self: center;
+	width: 30%;
 	padding: 0;
 }
-.profile-info {
+.profile-card {
 	background-color: darkgray;
 }
 
 .profile-pic {
 	border-radius: 50%;
+	border: solid white 4px;
+	max-width: 75%;
 	margin: 10px;
+}
+
+.rounded-start {
+	border-bottom-left-radius: 50% !important;
 }
 
 .user-description {
