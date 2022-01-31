@@ -29,17 +29,9 @@
 .navbar-toggler:focus {
 	box-shadow: 0 0 0 0.1rem;
 }
-.nav-item:first-child {
-	margin-top: 0.5rem;
-	border-bottom: #074415 solid 1px;
-}
+
 .nav-item {
 	border-radius: 0.25rem;
-	border-bottom: #074415 solid 1px;
-}
-.nav-item:last-child {
-	margin-bottom: 0.5rem;
-	border-bottom: none;
 }
 
 .dropdown-menu {
@@ -131,6 +123,22 @@
 .clear {
 	clear: both;
 	height: 40px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+	.nav-item:first-child {
+		margin-top: 0.5rem;
+		border-bottom: #074415 solid 1px;
+	}
+	.nav-item {
+		border-radius: 0.25rem;
+		border-bottom: #074415 solid 1px;
+	}
+	.nav-item:last-child {
+		margin-bottom: 0.5rem;
+		border-bottom: none;
+	}
 }
 /* .wrapper {
 	display: flex;
