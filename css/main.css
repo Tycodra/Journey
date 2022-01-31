@@ -18,7 +18,7 @@
 	padding-left: 10px;
 }
 
-.active {
+.nav-item.active {
 	background-color: #0d8128;
 	color: rgb(233, 229, 168) !important;
 }
@@ -44,6 +44,18 @@
 	background-color: chartreuse;
 }
 
+.tab-pane {
+	border-radius: 0.25rem;
+	margin: 0.5rem;
+}
+
+.accordion-body {
+	padding: 0;
+}
+.accordion-button {
+	padding: 0.25rem 1.25rem;
+}
+
 .card {
 	margin: 0.25rem;
 }
@@ -53,16 +65,20 @@
 }
 .activities-block {
 	background-color: darkgray;
-	height: 15rem;
+	border-radius: 0.25rem;
+	margin-top: 0 !important;
+	height: 17rem;
 	overflow-y: scroll;
 }
 
 .activities-border {
 	background-color: lightcoral;
+	border-radius: 0.25rem;
 }
 
 .activity-card {
 	width: 17rem;
+	margin: 1rem;
 }
 
 .bucket-list-block {
@@ -86,6 +102,7 @@
 	text-align: center;
 	margin-left: 0;
 	margin-right: 0;
+	margin-top: 1rem;
 }
 .col-user-image {
 	align-self: center;
@@ -129,7 +146,6 @@
 @media only screen and (max-width: 450px) {
 	.nav-item:first-child {
 		margin-top: 0.5rem;
-		border-bottom: #074415 solid 1px;
 	}
 	.nav-item {
 		border-radius: 0.25rem;
@@ -138,6 +154,10 @@
 	.nav-item:last-child {
 		margin-bottom: 0.5rem;
 		border-bottom: none;
+	}
+
+	.user-homepage {
+		flex: 1 0 42%;
 	}
 }
 /* .wrapper {
