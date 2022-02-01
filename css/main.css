@@ -94,8 +94,8 @@
 	background-color: darkgray;
 	border-radius: 0.25rem;
 	margin-top: 0 !important;
-	height: 17rem;
-	overflow-y: scroll;
+	height: 28rem;
+	overflow-x: scroll;
 }
 
 .activities-border {
@@ -106,12 +106,18 @@
 .activity-card,
 .bucket-list-card {
 	width: 17rem;
-	margin: 0.75rem;
+	height: auto;
+	/* margin: 0.75rem; */
+}
+
+.google-maps {
+	background-color: #ea4335;
+	padding: 0;
 }
 
 .img-fluid {
 	align-self: center;
-	max-width: 97%;
+	max-width: 95%;
 	margin-top: 0.75rem;
 }
 
