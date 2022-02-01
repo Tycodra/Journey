@@ -96,9 +96,9 @@
 			</div>
 			<div class="col user-homepage">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item" role="presentation">
+					<li class="nav-item tab" role="presentation">
 						<button
-							class="nav-link active"
+							class="nav-link active tab-button"
 							id="login-tab"
 							data-bs-toggle="tab"
 							data-bs-target="#login"
@@ -110,9 +110,9 @@
 							Login
 						</button>
 					</li>
-					<li class="nav-item" role="presentation">
+					<li class="nav-item tab" role="presentation">
 						<button
-							class="nav-link"
+							class="nav-link tab-button"
 							id="register-tab"
 							data-bs-toggle="tab"
 							data-bs-target="#register"
@@ -134,7 +134,9 @@
 					>
 						<form id="login-form">
 							<div class="mb-3">
-								<label for="exampleInputEmail1" class="form-label">Login</label>
+								<label for="exampleInputEmail1" class="form-label"
+									>Email Address</label
+								>
 								<input
 									type="email"
 									class="form-control"
@@ -142,7 +144,7 @@
 									aria-describedby="emailHelp"
 								/>
 								<div id="emailHelp" class="form-text">
-									We'll probably share your email with everyone else.
+									We probably share your email with everyone.
 								</div>
 							</div>
 							<div class="mb-3">
@@ -155,17 +157,9 @@
 									id="exampleInputPassword1"
 								/>
 							</div>
-							<div class="mb-3 form-check">
-								<input
-									type="checkbox"
-									class="form-check-input"
-									id="exampleCheck1"
-								/>
-								<label class="form-check-label" for="exampleCheck1"
-									>Check me out</label
-								>
-							</div>
-							<button type="submit" class="btn btn-primary">Login</button>
+							<button type="submit" class="btn btn-primary login-button">
+								Login
+							</button>
 						</form>
 					</div>
 					<div
@@ -263,8 +257,8 @@
 								</div>
 							</div>
 							<div class="col-12">
-								<button class="btn btn-primary" type="submit">
-									Submit form
+								<button class="btn btn-primary register-button" type="submit">
+									Register
 								</button>
 							</div>
 						</form>

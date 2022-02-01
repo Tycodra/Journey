@@ -44,9 +44,36 @@
 	background-color: chartreuse;
 }
 
+.user-homepage {
+	background-color: lightgrey;
+	border-radius: 0.25rem;
+	text-align: start;
+	align-self: flex-start;
+}
 .tab-pane {
 	border-radius: 0.25rem;
 	margin: 0.5rem;
+}
+.tab-content {
+	background-color: #9bdeeb;
+	border-radius: 0.25rem;
+}
+.nav-link.active.tab-button {
+	background-color: #9bdeeb;
+}
+.nav-tabs {
+	margin-top: 1rem;
+}
+.nav-item.tab {
+	border-radius: 0.25rem;
+}
+.login-button,
+.register-button {
+	color: #fff;
+	background-color: #0d6efd;
+	border-color: #0d6efd;
+	padding: 0.175rem 0.75rem;
+	margin-bottom: 0.5rem;
 }
 
 .accordion-body {
@@ -76,25 +103,26 @@
 	border-radius: 0.25rem;
 }
 
-.activity-card {
-	width: 17rem;
-	margin: 1rem;
+.activity-card,
+.bucket-list-card {
+	width: 15rem;
+	margin: 0.75rem;
 }
 
+#bucket-list-header {
+	margin: 5px;
+}
 .bucket-list-block {
 	background-color: darkgray;
-	margin: 0.25rem;
-	height: 15rem;
-	border: rgb(128, 214, 240) solid 10px;
+	border-radius: 0.25rem;
+	margin-top: 0 !important;
+	height: 17rem;
 	overflow-y: scroll;
 }
 
 .bucket-list-border {
-	background-color: lightcoral;
-}
-
-.bucket-list-card {
-	width: 17rem;
+	background-color: lightskyblue;
+	border-radius: 0.25rem;
 }
 
 .row {
@@ -102,7 +130,7 @@
 	text-align: center;
 	margin-left: 0;
 	margin-right: 0;
-	margin-top: 1rem;
+	/* margin-top: 1rem; */
 }
 .col-user-image {
 	align-self: center;
@@ -125,8 +153,23 @@
 }
 
 .user-description {
+	background-color: darkgray;
+	border-radius: 0.25rem;
 	align-self: center;
 	margin: 5px;
+}
+
+.user-details {
+	background-color: rgb(196, 195, 195);
+	border-radius: 0.25rem;
+	margin: 0.25rem 0.75rem;
+	max-width: 95%;
+}
+h6 {
+	margin-bottom: 0;
+}
+p {
+	margin-bottom: 0.25rem;
 }
 
 .fixed-bottom {
@@ -143,7 +186,7 @@
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 475px) {
 	.nav-item:first-child {
 		margin-top: 0.5rem;
 	}
@@ -155,9 +198,18 @@
 		margin-bottom: 0.5rem;
 		border-bottom: none;
 	}
+	.nav-tabs {
+		margin-top: 0;
+		border-bottom: none;
+	}
+	.nav-item.tab {
+		margin-top: 0.5rem;
+		margin-bottom: 0;
+		border: none;
+	}
 
 	.user-homepage {
-		flex: 1 0 42%;
+		flex: 1 0 55%;
 	}
 }
 /* .wrapper {
