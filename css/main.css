@@ -105,8 +105,14 @@
 
 .activity-card,
 .bucket-list-card {
-	width: 15rem;
+	width: 17rem;
 	margin: 0.75rem;
+}
+
+.img-fluid {
+	align-self: center;
+	max-width: 97%;
+	margin-top: 0.75rem;
 }
 
 #bucket-list-header {
