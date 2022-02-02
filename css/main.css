@@ -5,25 +5,25 @@
 }
 
 .bg-dark {
-	background-color: #075218 !important;
+	background-color: rgb(95, 95, 95) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-	color: rgb(231, 223, 114);
+	color: rgb(9, 212, 212);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: rgb(233, 229, 168);
+	color: rgb(6, 250, 250);
 	padding-left: 10px;
 }
 
 .nav-item.active {
-	background-color: #0d8128;
-	color: rgb(233, 229, 168) !important;
+	background-color: rgb(114, 114, 114);
+	color: rgb(9, 212, 212) !important;
 }
 .active a:hover {
-	color: rgb(224, 150, 214);
+	color: rgb(6, 250, 169);
 }
 
 .navbar-toggler:focus {
@@ -35,20 +35,29 @@
 }
 
 .dropdown-menu {
-	background-color: #169132;
+	background-color: rgb(95, 95, 95);
 }
 .dropdown-item {
-	color: #e9e5a8;
+	color: rgb(9, 212, 212);
 }
 .dropdown-item:focus {
-	background-color: chartreuse;
+	background-color: rgb(196, 195, 195);
+}
+.btn-outline-success {
+	color: rgb(6, 250, 250);
+	border-color: rgb(9, 212, 212);
 }
 
+.home-page-body {
+	background-color: #bfe3eb;
+	/* margin-bottom: 40px; */
+}
 .user-homepage {
 	background-color: lightgrey;
 	border-radius: 0.25rem;
 	text-align: start;
 	align-self: flex-start;
+	margin: 1rem;
 }
 .tab-pane {
 	border-radius: 0.25rem;
@@ -57,6 +66,7 @@
 .tab-content {
 	background-color: #9bdeeb;
 	border-radius: 0.25rem;
+	margin: 1rem;
 }
 .nav-link.active.tab-button {
 	background-color: #9bdeeb;
@@ -79,8 +89,16 @@
 .accordion-body {
 	padding: 0;
 }
+.accordion-item {
+	background-color: rgb(151, 150, 150);
+}
 .accordion-button {
 	padding: 0.25rem 1.25rem;
+	background-color: rgb(207, 206, 206);
+}
+.accordion-button:not(.collapsed) {
+	background-color: #d8f1e9;
+	color: rgb(95, 95, 95);
 }
 
 .card {
@@ -99,7 +117,7 @@
 }
 
 .activities-border {
-	background-color: lightcoral;
+	background-color: rgb(6, 250, 169);
 	border-radius: 0.25rem;
 }
 
@@ -111,8 +129,15 @@
 }
 
 .google-maps {
-	background-color: #ea4335;
+	background-color: #ee5042;
 	padding: 0;
+}
+
+.btn-primary,
+.btn-primary:focus {
+	background-color: gray;
+	border-color: rgb(2, 190, 190);
+	color: cyan;
 }
 
 .img-fluid {
@@ -128,12 +153,12 @@
 	background-color: darkgray;
 	border-radius: 0.25rem;
 	margin-top: 0 !important;
-	height: 17rem;
+	height: 28rem;
 	overflow-y: scroll;
 }
 
 .bucket-list-border {
-	background-color: lightskyblue;
+	background-color: rgb(2, 190, 190);
 	border-radius: 0.25rem;
 }
 
@@ -142,7 +167,7 @@
 	text-align: center;
 	margin-left: 0;
 	margin-right: 0;
-	/* margin-top: 1rem; */
+	margin-top: 1rem;
 }
 .col-user-image {
 	align-self: center;
@@ -204,7 +229,7 @@ p {
 	}
 	.nav-item {
 		border-radius: 0.25rem;
-		border-bottom: #074415 solid 1px;
+		border-bottom: rgb(196, 195, 195) solid 1px;
 	}
 	.nav-item:last-child {
 		margin-bottom: 0.5rem;
@@ -222,6 +247,10 @@ p {
 
 	.user-homepage {
 		flex: 1 0 55%;
+	}
+
+	.tab-content {
+		margin: 0.5rem;
 	}
 }
 /* .wrapper {
