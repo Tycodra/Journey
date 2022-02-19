@@ -49,9 +49,7 @@
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li>
-									<a class="dropdown-item" href="/pages/my-journey.html"
-										>My Journey</a
-									>
+									<a class="dropdown-item" href="/pages/my-journey.html">My Journey</a>
 								</li>
 								<li><hr class="dropdown-divider" /></li>
 								<li>
@@ -67,35 +65,47 @@
 					</ul>
 					<form class="d-flex">
 						<input
+							id="searchInput"
 							class="form-control me-2"
 							type="search"
 							placeholder="Search"
 							aria-label="Search"
 						/>
-						<button class="btn btn-outline-success" type="submit">
-							Search
-						</button>
+						<button class="btn btn-outline-success" type="submit">Search</button>
 					</form>
 				</div>
 			</div>
 		</nav>
 
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h1 class="display-4">Whats the world up to?</h1>
-				<p class="lead">
-					Explore the hobbies and activities of other people from around the
-					world!
-				</p>
+		<div
+			class="d-flex justify-content-center align-items-center align-self-center explore-body"
+		>
+			<div class="jumbotron jumbotron-fluid explore-box">
+				<div class="container">
+					<h1 class="display-4">Whats the world up to?</h1>
+					<p class="lead">
+						Explore the hobbies and activities of other people from around the world!
+					</p>
+				</div>
+				<form class="d-flex explore-form">
+					<input
+						id="searchInput"
+						class="form-control me-2"
+						type="search"
+						placeholder="Explore"
+						aria-label="Search"
+					/>
+					<button class="btn btn-outline-success explore-btn" type="submit">
+						Explore
+					</button>
+				</form>
 			</div>
 		</div>
 
 		<div class="clear"></div>
 		<footer class="navbar fixed-bottom navbar-dark bg-dark">
 			<div class="navbar-nav">
-				<a
-					class="nav-link github-link"
-					href="https://github.com/Tycodra/Journey.git"
+				<a class="nav-link github-link" href="https://github.com/Tycodra/Journey.git"
 					>Created by the lovely Cole Draper</a
 				>
 			</div>

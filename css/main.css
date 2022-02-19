@@ -209,6 +209,24 @@ p {
 	margin-bottom: 0.25rem;
 }
 
+.explore-body {
+	height: 88vh;
+}
+
+.explore-box {
+	text-align: center;
+	border-radius: 0.25rem;
+	background-color: rgb(196, 195, 195);
+}
+
+.explore-form {
+	margin: 1rem;
+}
+
+.explore-btn {
+	background-color: rgb(95, 95, 95);
+}
+
 .fixed-bottom {
 	height: 40px;
 }
