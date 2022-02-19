@@ -223,6 +223,8 @@ p {
 
 .explore-box {
 	text-align: center;
+	padding: 1rem;
+	border: solid 3px rgb(114, 114, 114);
 	border-radius: 0.25rem;
 	background-color: rgb(196, 195, 195);
 }
@@ -231,7 +233,7 @@ p {
 	margin: 1rem;
 }
 
-.explore-btn {
+#explore-btn {
 	background-color: rgb(95, 95, 95);
 }
 
