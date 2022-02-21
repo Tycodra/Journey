@@ -114,7 +114,6 @@ a.dropdown-item:hover {
 .activities-block {
 	background-color: darkgray;
 	border-radius: 0.25rem;
-	margin-top: 0 !important;
 	height: 28rem;
 	overflow-x: scroll;
 }
@@ -214,9 +213,11 @@ p {
 
 .explore-body {
 	display: flex;
-	height: 88vh;
+	height: 89.5vh;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+	background-color: #ccf0f0;
 }
 
 .explore-box {
