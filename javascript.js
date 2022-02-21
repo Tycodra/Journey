@@ -2,6 +2,7 @@ let photoAPIKey = '563492ad6f91700001000001ecb71e3106e145c1a1b1be0661c51aed';
 document.getElementById('explore-btn').addEventListener('click', function (event) {
 	event.preventDefault();
 	const query = document.getElementById('explore-input').value;
+	document.getElementById('explore-input').value = '';
 	if (query === '') return;
 	console.log(query);
 	let explore_body = document.getElementById('explore-body');
@@ -42,7 +43,6 @@ function explore(query) {
 				activities_block.style.margin = '1rem';
 				activities_block.style.width = 'inherit';
 				activities_block.style.height = 'inherit';
-				// activities_block.style.alignContent = ;
 				document.getElementById('explore-body').appendChild(activities_block);
 			}
 
@@ -53,7 +53,7 @@ function explore(query) {
 			explore_search.style.margin = '1rem';
 			activities_block.appendChild(explore_search);
 
-			for (let i = 0; i < 6; i++) {
+			for (let i = 0; i < 9; i++) {
 				const activity_card = document.createElement('div');
 				activity_card.setAttribute('class', 'card activity-card');
 
