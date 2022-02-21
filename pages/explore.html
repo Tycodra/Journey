@@ -19,7 +19,7 @@
 	<body>
 		<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="https://journey.tycodra.com">Journey</a>
+				<a class="navbar-brand" href="/home.html">Journey</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -34,7 +34,7 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav me-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="https://journey.tycodra.com">Home</a>
+							<a class="nav-link" href="/home.html">Home</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a
@@ -67,13 +67,11 @@
 			</div>
 		</nav>
 
-		<div
-			class="d-flex justify-content-center align-items-center align-self-center explore-body"
-		>
+		<div id="explore-body" class="explore-body">
 			<div class="jumbotron jumbotron-fluid explore-box">
 				<div class="container">
-					<h1 class="display-4">Whats the world up to?</h1>
-					<p class="lead">
+					<h1 id="explore-body-header" class="display-4">Whats the world up to?</h1>
+					<p id="explore-body-text" class="lead">
 						Explore the hobbies and activities of other people from around the world!
 					</p>
 				</div>
@@ -85,9 +83,7 @@
 						placeholder="Explore"
 						aria-label="Search"
 					/>
-					<button id="explore-btn" class="btn btn-outline-success" type="submit">
-						Explore
-					</button>
+					<button id="explore-btn" class="btn" type="submit">Explore</button>
 				</form>
 			</div>
 		</div>

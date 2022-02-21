@@ -19,7 +19,6 @@
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .nav-link {
 	color: rgb(6, 250, 250);
-	padding-left: 10px;
 }
 
 .nav-item.active {
@@ -50,10 +49,6 @@ a.dropdown-item:hover {
 }
 .dropdown-item:focus {
 	background-color: rgb(196, 195, 195);
-}
-.btn-outline-success {
-	color: rgb(6, 250, 250);
-	border-color: rgb(9, 212, 212);
 }
 
 .home-page-body {
@@ -175,7 +170,7 @@ a.dropdown-item:hover {
 	text-align: center;
 	margin-left: 0;
 	margin-right: 0;
-	margin-top: 1rem;
+	/* margin-top: 1rem; */
 }
 .col-user-image {
 	align-self: center;
@@ -218,7 +213,10 @@ p {
 }
 
 .explore-body {
+	display: flex;
 	height: 88vh;
+	align-items: center;
+	justify-content: center;
 }
 
 .explore-box {
@@ -235,6 +233,11 @@ p {
 
 #explore-btn {
 	background-color: rgb(95, 95, 95);
+	color: rgb(6, 250, 250);
+	border-color: rgb(9, 212, 212);
+}
+#explore-btn:hover {
+	background-color: rgb(117, 117, 117) !important;
 }
 
 .fixed-bottom {
@@ -281,110 +284,3 @@ p {
 		margin: 0.5rem;
 	}
 }
-/* .wrapper {
-	display: flex;
-	flex-wrap: nowrap;
-	width: 100%;
-}
-
-#sidebar {
-	position: fixed;
-	min-width: 250px;
-	max-width: 250px;
-	left: 0;
-	height: 100vh;
-	background: #7386d5;
-	color: #fff;
-	transition: all 0.3s;
-	overflow: auto;
-}
-
-.card {
-	background: #6d7fcc;
-}
-
-.card-body {
-	padding: 0;
-}
-
-.row {
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.col {
-	text-align: center;
-	align-self: center;
-} */
-
-/* .col-user-image {
-	align-self: center;
-	padding: 0;
-}
-
-.profile-pic {
-	border-radius: 50%;
-	margin: 10px;
-}
-
-.user-description {
-	align-self: center;
-	margin: 5px;
-}
-
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
-body {
-	font-family: "Poppins", sans-serif;
-	background: #fafafa;
-}
-
-a,
-a:hover,
-a:focus {
-	color: inherit;
-	text-decoration: none;
-	transition: all 0.3s;
-}
-
-#sidebar .sidebar-header {
-	padding: 20px;
-	background: #6d7fcc;
-}
-
-#sidebar ul.components {
-	border-bottom: 1px solid #47748b;
-	border-top: 1px solid #47748b;
-}
-
-#sidebar ul p {
-	color: #fff;
-	padding: 10px;
-}
-
-#sidebar ul li a {
-	padding: 10px;
-	font-size: 1.1em;
-	display: block;
-}
-#sidebar ul li a:hover {
-	color: #7386d5;
-	background: #fff;
-} */
-
-/* #sidebar ul li.active > a,
-a[aria-expanded="true"] {
-	color: #fff;
-	background: #6d7fcc;
-}
-ul ul a {
-	font-size: 0.9em !important;
-	padding-left: 30px !important;
-	background: #6d7fcc;
-} */
-
-/* #content {
-	margin-left: 250px;
-	height: 100vh;
-	padding: 1px, 16px;
-} */
