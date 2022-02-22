@@ -19,6 +19,7 @@
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .nav-link {
 	color: rgb(6, 250, 250);
+	padding: 0.5rem 0.5rem;
 }
 
 .nav-item.active {
@@ -53,6 +54,8 @@ a.dropdown-item:hover {
 
 .home-page-body {
 	background-color: #bfe3eb;
+	height: 89.3vh;
+	align-content: center;
 	/* margin-bottom: 40px; */
 }
 .user-homepage {
@@ -261,7 +264,7 @@ p {
 	}
 	.nav-item {
 		border-radius: 0.25rem;
-		border-bottom: rgb(196, 195, 195) solid 1px;
+		/* border-bottom: rgb(196, 195, 195) solid 1px; */
 	}
 	.nav-item:last-child {
 		margin-bottom: 0.5rem;
